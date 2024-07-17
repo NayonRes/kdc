@@ -27,6 +27,9 @@ function App() {
 
     fontSize: "60px",
     color: "#026A9F",
+    [theme.breakpoints.down("md")]: {
+      fontSize: "45px",
+    },
   };
   return (
     <React.Fragment>
@@ -87,12 +90,12 @@ function App() {
             </Typography>
 
             <Grid container sx={{ mb: 3.75 }}>
-              <Grid lg={6} sx={{ pr: 1.5 }}>
+              <Grid xs={12} sm={12} md={12} lg={6} sx={{ pr: 1.5 }}>
                 <Box>
                   <img src="/image1.svg" alt="" style={{ width: "100%" }} />
                 </Box>
               </Grid>
-              <Grid lg={3} sx={{ pr: 1.5 }}>
+              <Grid xs={12} sm={12} md={12} lg={3} sx={{ pr: 1.5 }}>
                 <Box sx={{ mb: 0.5 }}>
                   <img src="/image2.svg" alt="" style={{ width: "100%" }} />
                 </Box>
@@ -100,27 +103,30 @@ function App() {
                   <img src="/image3.svg" alt="" style={{ width: "100%" }} />
                 </Box>
               </Grid>
-              <Grid lg={3}>
+              <Grid xs={12} sm={6} md={6} lg={3}>
                 <Box
                   sx={{
                     "& img": {
                       maxHeight: "470px",
+                      [theme.breakpoints.down("md")]: {
+                        maxWidth: "100%",
+                      },
                     },
                   }}
                 >
                   <img src="/image4.svg" alt="" style={{ width: "100%" }} />
                 </Box>
               </Grid>
-              <Grid lg={3} sx={{ pr: 1.5 }}>
+              <Grid xs={12} sm={6} md={6} lg={3} sx={{ pr: 1.5 }}>
                 <img src="/image5.svg" alt="" style={{ width: "100%" }} />
               </Grid>
-              <Grid lg={3} sx={{ pr: 1.5 }}>
+              <Grid xs={12} sm={6} md={6} lg={3} sx={{ pr: 1.5 }}>
                 <img src="/image6.svg" alt="" style={{ width: "100%" }} />
               </Grid>
-              <Grid lg={3} sx={{ pr: 1.5 }}>
+              <Grid xs={12} sm={6} md={6} lg={3} sx={{ pr: 1.5 }}>
                 <img src="/image7.svg" alt="" style={{ width: "100%" }} />
               </Grid>
-              <Grid lg={3}>
+              <Grid xs={12} sm={6} md={6} lg={3}>
                 <img src="/image8.svg" alt="" style={{ width: "100%" }} />
               </Grid>
             </Grid>
