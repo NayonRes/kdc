@@ -43,7 +43,7 @@ function App() {
             sx={{ py: 4.5 }}
           >
             <Grid item xs="auto">
-              <img src="/logo.svg" />
+              <img src="/kdc_logo.png" alt="logo" width="174px" />
             </Grid>
             <Grid item xs="auto">
               <Button
@@ -90,44 +90,10 @@ function App() {
             </Typography>
 
             <Grid container sx={{ mb: 3.75 }}>
-              <Grid xs={12} sm={12} md={12} lg={6} sx={{ pr: 1.5 }}>
+              <Grid xs={12}>
                 <Box>
                   <img src="/image1.svg" alt="" style={{ width: "100%" }} />
                 </Box>
-              </Grid>
-              <Grid xs={12} sm={12} md={12} lg={3} sx={{ pr: 1.5 }}>
-                <Box sx={{ mb: 0.5 }}>
-                  <img src="/image2.svg" alt="" style={{ width: "100%" }} />
-                </Box>
-                <Box>
-                  <img src="/image3.svg" alt="" style={{ width: "100%" }} />
-                </Box>
-              </Grid>
-              <Grid xs={12} sm={6} md={6} lg={3}>
-                <Box
-                  sx={{
-                    "& img": {
-                      maxHeight: "470px",
-                      [theme.breakpoints.down("md")]: {
-                        maxWidth: "100%",
-                      },
-                    },
-                  }}
-                >
-                  <img src="/image4.svg" alt="" style={{ width: "100%" }} />
-                </Box>
-              </Grid>
-              <Grid xs={12} sm={6} md={6} lg={3} sx={{ pr: 1.5 }}>
-                <img src="/image5.svg" alt="" style={{ width: "100%" }} />
-              </Grid>
-              <Grid xs={12} sm={6} md={6} lg={3} sx={{ pr: 1.5 }}>
-                <img src="/image6.svg" alt="" style={{ width: "100%" }} />
-              </Grid>
-              <Grid xs={12} sm={6} md={6} lg={3} sx={{ pr: 1.5 }}>
-                <img src="/image7.svg" alt="" style={{ width: "100%" }} />
-              </Grid>
-              <Grid xs={12} sm={6} md={6} lg={3}>
-                <img src="/image8.svg" alt="" style={{ width: "100%" }} />
               </Grid>
             </Grid>
             <Typography
@@ -421,45 +387,51 @@ function App() {
                 }}
               >
                 <Marquee>
-                  <img src="/client-images/iFixit.svg" alt="iFixit" />
-                  <img src="/client-images/Rahim_Steel.svg" alt="Rahim Steel" />
+                  <img src="/client-images/ifixit.svg" alt="ifixit" />
                   <img
-                    src="/client-images/Talukder_Foods.svg"
-                    alt="Talukder Foods"
+                    src="/client-images/Apple_Empire.svg"
+                    alt="Apple_Empire"
                   />
                   <img
-                    src="/client-images/Next_Business_Solution.svg"
-                    alt="Next Business Solution"
+                    src="/client-images/Apple_gadgets.svg"
+                    alt="Apple_gadgets"
                   />
-                  <img src="/client-images/NextBlock.svg" alt="Next Block" />
-                  <img src="/client-images/Chitron.svg" alt="Chitron" />
-                  <img
-                    src="/client-images/Hashtag_Pizza.svg"
-                    alt="Hashtag Pizza"
-                  />
-                  <img
-                    src="/client-images/Yes_Event_Planner.svg"
-                    alt="Yes Event Planner"
-                  />
-                  <img src="/client-images/InBs.svg" alt="InBs" />
-                  <img
-                    src="/client-images/Own_The_World.svg"
-                    alt="Own The World"
-                  />
-
-                  <img
-                    src="/client-images/Marriage_Match_Media.svg"
-                    alt="Marriage Match Media"
-                  />
+                  <img src="/client-images/BAF.svg" alt="BAF" />
                   <img src="/client-images/Baham.svg" alt="Baham" />
                   <img
-                    src="/client-images/Bhangari_Bazar.svg"
-                    alt="Bhangari Bazar"
+                    src="/client-images/blush_beauty.svg"
+                    alt="blush_beauty"
+                  />
+                  <img src="/client-images/CD_Vision.svg" alt="CD_Vision" />
+                  <img src="/client-images/Chitron.svg" alt="Chitron" />
+                  <img
+                    src="/client-images/Hastag_Pizza.svg"
+                    alt="Hastag_Pizza"
+                  />
+                  <img src="/client-images/INBS.svg" alt="INBS" />
+                  <img src="/client-images/Live_apple.svg" alt="Live_apple" />
+                  <img
+                    src="/client-images/Naveed_Mahbub.svg"
+                    alt="Naveed_Mahbub"
+                  />
+                  <img src="/client-images/Nextblock.svg" alt="Nextblock" />
+                  <img
+                    src="/client-images/Ocean_Angel_Freight.svg"
+                    alt="Ocean_Angel_Freight"
                   />
                   <img
-                    src="/client-images/Blush_Beauty.svg"
-                    alt="Blush Beauty"
+                    src="/client-images/Own_The_World.svg"
+                    alt="Own_The_World"
                   />
+                  <img src="/client-images/Rahim_Steel.svg" alt="Rahim_Steel" />
+                  <img src="/client-images/Rangs_Group.svg" alt="Rangs_Group" />
+                  <img src="/client-images/SSF.svg" alt="SSF" />
+                  <img
+                    src="/client-images/Talukder_Food.svg"
+                    alt="Talukder_Food"
+                  />
+                  <img src="/client-images/Texbridge.svg" alt="Texbridge" />
+                  <img src="/client-images/Yes_Event.svg" alt="Yes_Event" />
                 </Marquee>
               </Box>
             </Box>
@@ -528,7 +500,11 @@ function App() {
                     >
                       <i> Connect with me</i>
                     </Typography>
-                    <a style={{ marginRight: "6px" }}>
+                    <a
+                      href="https://bd.linkedin.com/in/kowserahmed"
+                      target="_blank"
+                      style={{ marginRight: "6px" }}
+                    >
                       <svg
                         width="22"
                         height="22"
@@ -542,7 +518,11 @@ function App() {
                         />
                       </svg>
                     </a>
-                    <a style={{ marginRight: "6px" }}>
+                    <a
+                      href="http://instagram.com/kowserahmed"
+                      target="_blank"
+                      style={{ marginRight: "6px" }}
+                    >
                       <svg
                         width="22"
                         height="22"
@@ -556,7 +536,31 @@ function App() {
                         />
                       </svg>
                     </a>
-                    <a style={{ marginRight: "6px" }}>
+                    <a
+                      href="https://www.facebook.com/KDC360"
+                      target="_blank"
+                      style={{ marginRight: "6px" }}
+                    >
+                      <svg
+                        width="22"
+                        height="23"
+                        viewBox="0 0 22 23"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M20.1667 11.5C20.1667 6.44004 16.06 2.33337 11 2.33337C5.94 2.33337 1.83334 6.44004 1.83334 11.5C1.83334 15.9367 4.98667 19.6309 9.16667 20.4834V14.25H7.33334V11.5H9.16667V9.20837C9.16667 7.43921 10.6058 6.00004 12.375 6.00004H14.6667V8.75004H12.8333C12.3292 8.75004 11.9167 9.16254 11.9167 9.66671V11.5H14.6667V14.25H11.9167V20.6209C16.5458 20.1625 20.1667 16.2575 20.1667 11.5Z"
+                          fill="#026A9F"
+                        />
+                      </svg>
+                    </a>
+                    <br />
+
+                    <a
+                      href="https://x.com/kowserahmed_"
+                      target="_blank"
+                      style={{ marginRight: "6px" }}
+                    >
                       <svg
                         width="22"
                         height="22"
@@ -570,7 +574,30 @@ function App() {
                         />
                       </svg>
                     </a>
-                    <a style={{ marginRight: "6px" }}>
+                    <a
+                      href="http://tiktok.com/@kowserahmed"
+                      target="_blank"
+                      style={{ marginRight: "6px" }}
+                    >
+                      <svg
+                        width="22"
+                        height="23"
+                        viewBox="0 0 22 23"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M11 2.33337C9.187 2.33337 7.41472 2.87099 5.90727 3.87824C4.39982 4.88548 3.22491 6.31712 2.5311 7.99211C1.8373 9.6671 1.65577 11.5102 2.00947 13.2884C2.36317 15.0665 3.23621 16.6999 4.51819 17.9819C5.80017 19.2638 7.43351 20.1369 9.21167 20.4906C10.9898 20.8443 12.8329 20.6627 14.5079 19.9689C16.1829 19.2751 17.6146 18.1002 18.6218 16.5928C19.629 15.0853 20.1667 13.313 20.1667 11.5C20.1642 9.06963 19.1977 6.73947 17.4791 5.02091C15.7606 3.30235 13.4304 2.3358 11 2.33337ZM16.4441 9.40362V9.99579C16.4441 10.0411 16.435 10.086 16.4174 10.1277C16.3998 10.1695 16.374 10.2073 16.3415 10.2389C16.3091 10.2705 16.2706 10.2953 16.2284 10.3118C16.1861 10.3283 16.1411 10.3362 16.0957 10.335C15.1279 10.2664 14.2021 9.91298 13.4347 9.31929V13.6533C13.4346 14.133 13.3388 14.6078 13.1531 15.0501C12.9674 15.4924 12.6954 15.8932 12.353 16.2291C12.0075 16.5735 11.597 16.8456 11.1454 17.0297C10.6937 17.2139 10.2099 17.3063 9.72217 17.3016C8.74127 17.2999 7.79985 16.9151 7.09867 16.2291C6.65261 15.7794 6.33132 15.2213 6.16641 14.6097C6.0015 13.9982 5.99866 13.3542 6.15817 12.7412C6.30392 12.1527 6.59817 11.6119 7.01342 11.171C7.32309 10.7925 7.71345 10.4879 8.15594 10.2797C8.59844 10.0715 9.08188 9.96475 9.57092 9.96737H10.3226V11.5285C10.3229 11.5738 10.3136 11.6187 10.2952 11.6601C10.2768 11.7016 10.2498 11.7386 10.216 11.7688C10.1821 11.799 10.1423 11.8216 10.099 11.8352C10.0557 11.8487 10.0101 11.8529 9.96508 11.8475C9.52865 11.7164 9.05836 11.7598 8.65337 11.9687C8.24837 12.1776 7.94029 12.5356 7.79409 12.9672C7.64788 13.3988 7.67496 13.8703 7.86963 14.2824C8.06429 14.6944 8.41133 15.0147 8.83758 15.1759C9.08508 15.318 9.36192 15.4014 9.64608 15.4206C9.86608 15.4298 10.0861 15.4023 10.2951 15.3363C10.6441 15.2188 10.9478 14.9952 11.1636 14.6968C11.3793 14.3983 11.4965 14.0399 11.4987 13.6716V5.77454C11.4985 5.73125 11.507 5.68836 11.5235 5.64832C11.5399 5.60829 11.5642 5.57191 11.5947 5.54125C11.6253 5.5106 11.6616 5.48627 11.7016 5.46968C11.7416 5.45308 11.7845 5.44454 11.8277 5.44454H13.1248C13.2092 5.44442 13.2903 5.47669 13.3516 5.53469C13.4128 5.59269 13.4495 5.67198 13.4539 5.75621C13.5014 6.16062 13.6299 6.55132 13.8318 6.90492C14.0337 7.25851 14.3049 7.56775 14.6291 7.81412C15.0673 8.14311 15.5878 8.34484 16.1333 8.39712C16.215 8.40411 16.2914 8.44046 16.3484 8.49945C16.4054 8.55843 16.439 8.63606 16.4432 8.71796L16.4441 9.40362Z"
+                          fill="#026A9F"
+                        />
+                      </svg>
+                    </a>
+
+                    <a
+                      href="https://youtube.com/@kowserahmedbd"
+                      target="_blank"
+                      style={{ marginRight: "6px" }}
+                    >
                       <svg
                         width="22"
                         height="22"
