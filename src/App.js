@@ -51,7 +51,11 @@ function App() {
                 <img src="/kdc_logo.png" alt="logo" width="140px" />
               </Grid>
               <Grid item xs="auto">
-                <Link to="https://calendly.com/kowserdc/30min" target="_blank" style={{textDecoration:"none"}}>
+                <Link
+                  to="https://calendly.com/kowserdc/30min"
+                  target="_blank"
+                  style={{ textDecoration: "none" }}
+                >
                   <Button
                     disableElevation
                     variant="contained"
@@ -72,7 +76,7 @@ function App() {
                 sx={{
                   fontWeight: 500,
                   fontFamily: '"Inter", sans-serif',
-                  fontSize: {lg:"18px",xl:"24px"},
+                  fontSize: { lg: "18px", xl: "24px" },
                   mb: 1,
                 }}
               >
@@ -90,7 +94,7 @@ function App() {
                 variant="h1"
                 sx={{
                   ...titleStyle,
-                  mb: {lg:1.75,xl:3.75} ,
+                  mb: { lg: 1.75, xl: 3.75 },
                 }}
               >
                 DIGITAL CONSULTANT
@@ -479,7 +483,11 @@ function App() {
                   <br />
                   Learn more?
                 </Typography>
-                <Link to="https://calendly.com/kowserdc/30min" target="_blank" style={{textDecoration:"none"}}>
+                <Link
+                  to="https://calendly.com/kowserdc/30min"
+                  target="_blank"
+                  style={{ textDecoration: "none" }}
+                >
                   <Button
                     disableElevation
                     variant="contained"
@@ -641,6 +649,8 @@ function App() {
 
                           color: "#756D71",
                           fontWeight: 500,
+                          fontSize: "13px",
+                          letterSpacing:0
                         }}
                       >
                         KOWSER AHMED
