@@ -26,11 +26,10 @@ function App() {
   const titleStyle = {
     fontWeight: 600,
     fontFamily: '"Inter", sans-serif',
-
-    fontSize: "60px",
+    fontSize: "40px",
     color: "#026A9F",
-    [theme.breakpoints.down("md")]: {
-      fontSize: "45px",
+    [theme.breakpoints.down("xl")]: {
+      fontSize: "32px",
     },
     [theme.breakpoints.down("sm")]: {
       fontSize: "38px",
@@ -40,19 +39,19 @@ function App() {
     <BrowserRouter>
       <React.Fragment>
         <CssBaseline />
-        <Container maxWidth="lg">
+        <Container maxWidth="md">
           <header>
             <Grid
               container
               justifyContent="space-between"
               alignItems="center"
-              sx={{ py: 4.5 }}
+              sx={{ py: 2.5 }}
             >
               <Grid item xs="auto">
-                <img src="/kdc_logo.png" alt="logo" width="174px" />
+                <img src="/kdc_logo.png" alt="logo" width="140px" />
               </Grid>
               <Grid item xs="auto">
-                <Link to="https://calendly.com/kowserdc/30min" target="_blank">
+                <Link to="https://calendly.com/kowserdc/30min" target="_blank" style={{textDecoration:"none"}}>
                   <Button
                     disableElevation
                     variant="contained"
@@ -67,13 +66,13 @@ function App() {
             </Grid>
           </header>
           <main>
-            <Box sx={{ py: 3.75 }}>
+            <Box sx={{ pb: 3.75 }}>
               <Typography
                 variant="h4"
                 sx={{
                   fontWeight: 500,
                   fontFamily: '"Inter", sans-serif',
-                  fontSize: "30px",
+                  fontSize: {lg:"18px",xl:"24px"},
                   mb: 1,
                 }}
               >
@@ -91,7 +90,7 @@ function App() {
                 variant="h1"
                 sx={{
                   ...titleStyle,
-                  mb: 3.75,
+                  mb: {lg:1.75,xl:3.75} ,
                 }}
               >
                 DIGITAL CONSULTANT
@@ -480,7 +479,7 @@ function App() {
                   <br />
                   Learn more?
                 </Typography>
-                <Link to="https://calendly.com/kowserdc/30min" target="_blank">
+                <Link to="https://calendly.com/kowserdc/30min" target="_blank" style={{textDecoration:"none"}}>
                   <Button
                     disableElevation
                     variant="contained"
